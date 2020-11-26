@@ -1,13 +1,13 @@
 package sfgdi.services;
 
+import jdk.jfr.SettingDefinition;
 import org.springframework.stereotype.Service;
 
 @Service
-public class GreeetingServiceImpl implements GreetingService{
-
+public class SetterGreetingService implements GreetingService{
 
     @Override
     public String sayGreeeting() {
-        return "Hello World";
+        return "Hello World from Setter";
     }
 }
